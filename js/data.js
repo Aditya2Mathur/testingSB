@@ -71,58 +71,29 @@ fetch('data/services.json')
     .catch(error => console.error('Error fetching services data:', error));
 
     // Blogs for blog page
-// script.js
-$(document).ready(function() {
-    $.getJSON('data/blog.json', function(data) {
-        const blogs = data.blogs;
-        const cardsPerPage = 6;
-        let currentPage = 1;
-
-        function displayBlogCards(page) {
-            const startIndex = (page - 1) * cardsPerPage;
-            const endIndex = startIndex + cardsPerPage;
-            const paginatedBlogs = blogs.slice(startIndex, endIndex);
-
-            $('#blogCards').empty();
-            paginatedBlogs.forEach(blog => {
-                const card = `
-                    <div class="col-lg-4 col-md-6">
-                        <div class="post-item">
-                            <div class="post-featured-image">
-                                <figure class="image-anime">
-                                    <a href="#"><img src="${blog.img}" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="post-item-body">
-                                <h2><a href="#">${blog.title}</a></h2>
-                                <p>${blog.content}</p>
-                            </div>
-                            <div class="btn-readmore">
-                                <a href="${blog.read_more}">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
-                            </div>
+    fetch('data/blog.json')
+    .then(response => response.json())
+    .then(data => {
+        const blogCardsContainer = document.getElementById('blogCards');
+        data.blogs.forEach(blog => {
+            const blogCard = `
+                <div class="col-lg-4 col-md-6">
+                    <div class="post-item wow fadeInUp" data-wow-delay="0.25s">
+                        <div class="post-featured-image">
+                            <figure class="image-anime">
+                                <a href="${blog.read_more}"><img src="${blog.img}" alt=""></a>
+                            </figure>
+                        </div>
+                        <div class="post-item-body">
+                            <h2><a href="${blog.read_more}">${blog.title}</a></h2>
+                            <p>${blog.content}</p>
+                        </div>
+                        <div class="btn-readmore">
+                            <a href="${blog.read_more}">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
-                `;
-                $('#blogCards').append(card);
-            });
-        }
-
-        function displayPagination() {
-            const totalPages = Math.ceil(blogs.length / cardsPerPage);
-            let pagination = '<ul class="pagination">';
-            for (let i = 1; i <= totalPages; i++) {
-                pagination += `<li><a href="#" onclick="changePage(${i})">${i}</a></li>`;
-            }
-            pagination += '</ul>';
-            $('#pagination').html(pagination);
-        }
-
-        function changePage(page) {
-            currentPage = page;
-            displayBlogCards(currentPage);
-        }
-
-        displayBlogCards(currentPage);
-        displayPagination();
+                </div>
+            `;
+            blogCardsContainer.innerHTML += blogCard;
+        });
     });
-});

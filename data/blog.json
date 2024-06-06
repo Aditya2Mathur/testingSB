@@ -44,70 +44,70 @@
         },
         {
             "blogID": 7,
-            "img": "../images/post-7.jpg",
+            "img": "../images/post-1.jpg",
             "title": "The Power of Nutrition: Fueling Your Body Right",
             "content": "Importance of a balanced diet, nutrients, and their impact on overall health",
             "read_more": "#"
         },
         {
             "blogID": 8,
-            "img": "../images/post-8.jpg",
+            "img": "../images/post-2.jpg",
             "title": "Fitness Fundamentals: Building a Strong Foundation",
             "content": "Basic exercises, workout routines, and tips for beginners",
             "read_more": "#"
         },
         {
             "blogID": 9,
-            "img": "../images/post-9.jpg",
+            "img": "../images/post-3.jpg",
             "title": "Sleep Science: Unlocking the Secrets of Quality Rest",
             "content": "Understanding sleep cycles, importance of sleep for health and well-being",
             "read_more": "#"
         },
         {
             "blogID": 10,
-            "img": "../images/post-10.jpg",
+            "img": "../images/post-4.jpg",
             "title": "Holistic Healing: Integrating Mind, Body, and Spirit",
             "content": "Exploring alternative therapies, mindfulness practices, and holistic approaches to health",
             "read_more": "#"
         },
         {
             "blogID": 11,
-            "img": "../images/post-11.jpg",
+            "img": "../images/post-5.jpg",
             "title": "The Art of Self-Care: Nurturing Your Well-Being",
             "content": "Self-care tips, relaxation techniques, and ways to prioritize mental and emotional health",
             "read_more": "#"
         },
         {
             "blogID": 12,
-            "img": "../images/post-12.jpg",
+            "img": "../images/post-6.jpg",
             "title": "Healthy Habits for a Happy Life",
             "content": "Building sustainable habits for physical, mental, and emotional well-being",
             "read_more": "#"
         },
         {
             "blogID": 13,
-            "img": "../images/post-13.jpg",
+            "img": "../images/post-1.jpg",
             "title": "Exploring Nature's Remedies: Herbal Medicine and Natural Healing",
             "content": "Benefits of herbal remedies, traditional healing practices, and natural health solutions",
             "read_more": "#"
         },
         {
             "blogID": 14,
-            "img": "../images/post-14.jpg",
+            "img": "../images/post-2.jpg",
             "title": "Embracing Mindfulness: Cultivating Present Moment Awareness",
             "content": "Practicing mindfulness, meditation techniques, and living in the present moment",
             "read_more": "#"
         },
         {
             "blogID": 15,
-            "img": "../images/post-15.jpg",
+            "img": "../images/post-3.jpg",
             "title": "Finding Balance: Juggling Work, Life, and Health",
             "content": "Tips for work-life balance, stress management, and maintaining overall well-being",
             "read_more": "#"
         },
         {
             "blogID": 16,
-            "img": "../images/post-16.jpg",
+            "img": "../images/post-4.jpg",
             "title": "The Science of Happiness: Pursuing Joy and Fulfillment",
             "content": "Psychological principles of happiness, positive psychology, and ways to enhance life satisfaction",
             "read_more": "#"

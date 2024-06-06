@@ -107,10 +107,23 @@
 
     <!-- Our Blog Section Start -->
     <div class="recent-post our-blog">
-        <div class="container">
-            <div class="container">
-                <div class="row" id="blogCards"></div>
-                <div id="pagination"></div>
+		<div class="container">
+            <div class="row" id="blogCards"></div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Post Pagination Start -->
+					<div class="post-pagination wow fadeInUp" data-wow-delay="0.75s" style="visibility: hidden; animation-delay: 0.75s; animation-name: none;">
+						<ul class="pagination">
+							<li><a href="#"><i class="fa-solid fa-arrow-left-long"></i></a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#"><i class="fa-solid fa-arrow-right-long"></i></a></li>
+						</ul>
+					</div>
+					<!-- Post Pagination End -->
+                </div>
             </div>
         </div>
     </div>
@@ -226,6 +239,7 @@
 	</footer>
 	<!-- Footer End -->
 	<!-- Blog Data Api -->
+
     <script src="./js/data.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Jquery Library File -->
