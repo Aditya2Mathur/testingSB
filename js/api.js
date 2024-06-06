@@ -47,7 +47,6 @@ fetch('../api/services.json')
         services.forEach(service => {
             const serviceCard = document.createElement('div');
             serviceCard.classList.add('col-lg-4', 'col-md-4'); // Adjusted class to match the provided HTML
-
             serviceCard.innerHTML = `
                 <div class="medical-service-item wow fadeInUp">
                     <div class="medical-service-content">
