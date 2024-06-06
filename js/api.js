@@ -1,5 +1,5 @@
 // Services For Serive page
-fetch('../data/services.json')
+fetch('../api/services.json')
             .then(response => response.json())
             .then(data => {
                 const services = data.services;
@@ -38,7 +38,7 @@ fetch('../data/services.json')
 
 //  5 services for index page
 // data.js
-fetch('../data/services.json')
+fetch('../api/services.json')
     .then(response => response.json())
     .then(data => {
         const services = data.services.slice(0, 5); // Get only the top 5 services
@@ -71,7 +71,7 @@ fetch('../data/services.json')
     .catch(error => console.error('Error fetching services data:', error));
 
     // Blogs for blog page
-	fetch('../data/blog.json')
+	fetch('../api/blog.json')
 			.then(response => response.json())
 			.then(data => {
 				const blogCardsContainer = document.getElementById('blogCards');
