@@ -2584,7 +2584,7 @@ header.main-header .header-sticky.active{
 }
 .post-pagination div{
 	display: flex;
-	gap: 10px;
+	gap: 8px;
 }
 
 .post-pagination button:hover{
