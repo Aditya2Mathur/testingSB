@@ -2,70 +2,70 @@
     "services": [
         {
             "name": "MRI Scan",
-            "image": "../images/services/mri.png",
+            "image": "images/services/mri.png",
             "paragraph": "Advanced imaging technique for detailed internal body scans.",
             "points": ["Detailed imaging", "Non-invasive", "Diagnose medical conditions"],
             "link": "services-single.html"
         },
         {
             "name": "CT Scan",
-            "image": "../images/services/ct-scan.png",
+            "image": "images/services/ct-scan.png",
             "paragraph": "Cross-sectional imaging for detailed views of internal structures.",
             "points": ["Rapid imaging", "High resolution", "Detect abnormalities"],
             "link": "services-single.html"
         },
         {
             "name": "3D/4D Ultrasound",
-            "image": "../images/services/ultrasound.png",
+            "image": "images/services/ultrasound.png",
             "paragraph": "Advanced ultrasound technology for detailed fetal imaging.",
             "points": ["Detailed fetal imaging", "Real-time visualization", "Monitor fetal development"],
             "link": "services-single.html"
         },
         {
             "name": "Automatic Pathology",
-            "image": "../images/services/microscope.png",
+            "image": "images/services/microscope.png",
             "paragraph": "Automated diagnostic tests for efficient disease detection.",
             "points": ["Efficient diagnostics", "Automated testing", "Accurate results"],
             "link": "services-single.html"
         },
         {
             "name": "Digital X-ray",
-            "image": "../images/services/x-rays.png",
+            "image": "images/services/x-rays.png",
             "paragraph": "Digital imaging for quick and accurate radiographic examinations.",
             "points": ["Quick imaging", "Accurate results", "Minimal radiation exposure"],
             "link": "services-single.html"
         },
         {
             "name": "Digital Mammography",
-            "image": "../images/services/mammography.png",
+            "image": "images/services/mammography.png",
             "paragraph": "Digital breast imaging for early detection of breast cancer.",
             "points": ["Early cancer detection", "High-resolution images", "Comfortable procedure"],
             "link": "services-single.html"
         },
         {
             "name": "dexa bmd",
-            "image": "../images/services/dexa.png",
+            "image": "images/services/dexa.png",
             "paragraph": "Bone density measurement for osteoporosis diagnosis and monitoring.",
             "points": ["Osteoporosis diagnosis", "Bone health assessment", "Accurate density measurement"],
             "link": "services-single.html"
         },
         {
             "name": "liver fibroscan",
-            "image": "../images/services/liver.png",
+            "image": "images/services/liver.png",
             "paragraph": "Non-invasive liver fibrosis assessment using ultrasound technology.",
             "points": ["Liver fibrosis assessment", "Non-invasive procedure", "Quick results"],
             "link": "services-single.html"
         },
         {
             "name": "12 lead ecg",
-            "image": "../images/ecg.jpg",
+            "image": "@http://127.0.0.1:5500/images/ecg.jpg",
             "paragraph": "Electrocardiogram for detailed heart function analysis.",
             "points": ["Heart function analysis", "Electrical activity recording", "Detect heart abnormalities"],
             "link": "services-single.html"
         },
         {
             "name": "2d echo",
-            "image": "../images/echo.jpg",
+            "image": "@http://127.0.0.1:5500/images/echo.jpg",
             "paragraph": "Two-dimensional echocardiogram for detailed heart imaging.",
             "points": ["Detailed heart imaging", "Real-time visualization", "Assess heart function"],
             "link": "services-single.html"

@@ -1,5 +1,5 @@
 // Services For Serive page
-fetch('../api/services.json')
+fetch('../data/services.json')
             .then(response => response.json())
             .then(data => {
                 const services = data.services;
@@ -38,7 +38,7 @@ fetch('../api/services.json')
 
 //  5 services for index page
 // data.js
-fetch('../api/services.json')
+fetch('../data/services.json')
     .then(response => response.json())
     .then(data => {
         const services = data.services.slice(0, 5); // Get only the top 5 services
@@ -47,6 +47,7 @@ fetch('../api/services.json')
         services.forEach(service => {
             const serviceCard = document.createElement('div');
             serviceCard.classList.add('col-lg-4', 'col-md-4'); // Adjusted class to match the provided HTML
+
             serviceCard.innerHTML = `
                 <div class="medical-service-item wow fadeInUp">
                     <div class="medical-service-content">
@@ -70,7 +71,7 @@ fetch('../api/services.json')
     .catch(error => console.error('Error fetching services data:', error));
 
     // Blogs for blog page
-	fetch('../api/blog.json')
+	fetch('../data/blog.json')
 			.then(response => response.json())
 			.then(data => {
 				const blogCardsContainer = document.getElementById('blogCards');
