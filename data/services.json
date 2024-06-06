@@ -58,14 +58,14 @@
         },
         {
             "name": "12 lead ecg",
-            "image": "@http://127.0.0.1:5500/../images/ecg.jpg",
+            "image": "../images/ecg.jpg",
             "paragraph": "Electrocardiogram for detailed heart function analysis.",
             "points": ["Heart function analysis", "Electrical activity recording", "Detect heart abnormalities"],
             "link": "services-single.html"
         },
         {
             "name": "2d echo",
-            "image": "@http://127.0.0.1:5500/../images/echo.jpg",
+            "image": "../images/echo.jpg",
             "paragraph": "Two-dimensional echocardiogram for detailed heart imaging.",
             "points": ["Detailed heart imaging", "Real-time visualization", "Assess heart function"],
             "link": "services-single.html"
