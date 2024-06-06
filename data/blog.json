@@ -2,112 +2,112 @@
     "blogs": [
         {
             "blogID": 1,
-            "img": "../images/post-1.jpg",
+            "img": "images/post-1.jpg",
             "title": "Best Medical Network Directory For Physicians & Clients",
             "content": "Hypertension, commonly known as high blood pressure, is a prevalent",
             "read_more": "#"
         },
         {
             "blogID": 2,
-            "img": "../images/post-2.jpg",
+            "img": "images/post-2.jpg",
             "title": "The Importance of Regular Health Checkups",
             "content": "This symptoms, causes, risk factors, diagnosis, treatment options strategies.",
             "read_more": "#"
         },
         {
             "blogID": 3,
-            "img": "../images/post-3.jpg",
+            "img": "images/post-3.jpg",
             "title": "Managing Better Stress for Better Mental Health",
             "content": "These stories can provide valuable insights into living with a particular condition",
             "read_more": "#"
         },
         {
             "blogID": 4,
-            "img": "../images/post-4.jpg",
+            "img": "images/post-4.jpg",
             "title": "Understanding Your Body: A Medical Journey",
             "content": "Exploring various body systems, organs, and how they function, with articles",
             "read_more": "#"
         },
         {
             "blogID": 5,
-            "img": "../images/post-5.jpg",
+            "img": "images/post-5.jpg",
             "title": "Mind Matters: Navigating Mental Health disorders",
             "content": "mental health disorders, coping strategies, therapy options",
             "read_more": "#"
         },
         {
             "blogID": 6,
-            "img": "../images/post-6.jpg",
+            "img": "images/post-6.jpg",
             "title": "Aging Gracefully: Your Guide to Healthy Aging",
             "content": "tips for healthy aging, managing chronic conditions, cognitive health",
             "read_more": "#"
         },
         {
             "blogID": 7,
-            "img": "../images/post-1.jpg",
+            "img": "images/post-1.jpg",
             "title": "The Power of Nutrition: Fueling Your Body Right",
             "content": "Importance of a balanced diet, nutrients, and their impact on overall health",
             "read_more": "#"
         },
         {
             "blogID": 8,
-            "img": "../images/post-2.jpg",
+            "img": "images/post-2.jpg",
             "title": "Fitness Fundamentals: Building a Strong Foundation",
             "content": "Basic exercises, workout routines, and tips for beginners",
             "read_more": "#"
         },
         {
             "blogID": 9,
-            "img": "../images/post-3.jpg",
+            "img": "images/post-3.jpg",
             "title": "Sleep Science: Unlocking the Secrets of Quality Rest",
             "content": "Understanding sleep cycles, importance of sleep for health and well-being",
             "read_more": "#"
         },
         {
             "blogID": 10,
-            "img": "../images/post-4.jpg",
+            "img": "images/post-4.jpg",
             "title": "Holistic Healing: Integrating Mind, Body, and Spirit",
             "content": "Exploring alternative therapies, mindfulness practices, and holistic approaches to health",
             "read_more": "#"
         },
         {
             "blogID": 11,
-            "img": "../images/post-5.jpg",
+            "img": "images/post-5.jpg",
             "title": "The Art of Self-Care: Nurturing Your Well-Being",
             "content": "Self-care tips, relaxation techniques, and ways to prioritize mental and emotional health",
             "read_more": "#"
         },
         {
             "blogID": 12,
-            "img": "../images/post-6.jpg",
+            "img": "images/post-6.jpg",
             "title": "Healthy Habits for a Happy Life",
             "content": "Building sustainable habits for physical, mental, and emotional well-being",
             "read_more": "#"
         },
         {
             "blogID": 13,
-            "img": "../images/post-1.jpg",
+            "img": "images/post-1.jpg",
             "title": "Exploring Nature's Remedies: Herbal Medicine and Natural Healing",
             "content": "Benefits of herbal remedies, traditional healing practices, and natural health solutions",
             "read_more": "#"
         },
         {
             "blogID": 14,
-            "img": "../images/post-2.jpg",
+            "img": "images/post-2.jpg",
             "title": "Embracing Mindfulness: Cultivating Present Moment Awareness",
             "content": "Practicing mindfulness, meditation techniques, and living in the present moment",
             "read_more": "#"
         },
         {
             "blogID": 15,
-            "img": "../images/post-3.jpg",
+            "img": "images/post-3.jpg",
             "title": "Finding Balance: Juggling Work, Life, and Health",
             "content": "Tips for work-life balance, stress management, and maintaining overall well-being",
             "read_more": "#"
         },
         {
             "blogID": 16,
-            "img": "../images/post-4.jpg",
+            "img": "images/post-4.jpg",
             "title": "The Science of Happiness: Pursuing Joy and Fulfillment",
             "content": "Psychological principles of happiness, positive psychology, and ways to enhance life satisfaction",
             "read_more": "#"
