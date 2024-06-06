@@ -1,38 +1,4 @@
-// Services For Serive page
-fetch('../data/services.json')
-            .then(response => response.json())
-            .then(data => {
-                const services = data.services;
-                const servicesRow = document.getElementById('services-row');
-        
-                // Create dynamic service cards
-                services.forEach(service => {
-                    const serviceCard = document.createElement('div');
-                    serviceCard.classList.add('col-lg-4', 'col-md-6', 'col-12', 'service-card', 'wow', 'fadeInUp');
-        
-                    serviceCard.innerHTML = `
-                        <div class="our-services-item">
-                            <div class="service-item-image">
-                                <img src="${service.image}" alt="${service.name}">
-                            </div>
-                            <div class="services-item-content">
-                                <h3>${service.name}</h3>
-                                <p>${service.paragraph}</p>
-                                <ul>
-                                    ${service.points.map(point => `<li>${point}</li>`).join('')}
-                                </ul>
-                            </div>
-                            <div class="services-item-btn">
-                                <a href="${service.link}" class="btn-default">Read More</a>
-                            </div>
-                        </div>
-                    `;
-        
-                    servicesRow.appendChild(serviceCard);
-                });
-            })
-            .catch(error => console.error('Error fetching services data:', error));
-            
+
 
 
 
@@ -70,8 +36,8 @@ fetch('data/services.json')
     })
     .catch(error => console.error('Error fetching services data:', error));
 
-    // Blogs for blog page
-    fetch('data/blog.json')
+// Blogs for blog page
+fetch('data/blog.json')
     .then(response => response.json())
     .then(data => {
         const blogCardsContainer = document.getElementById('blogCards');
