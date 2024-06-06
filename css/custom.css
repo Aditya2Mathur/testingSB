@@ -2561,14 +2561,14 @@ header.main-header .header-sticky.active{
     text-align: center;
 }
 
-.post-pagination ul{
+.post-pagination div{
     justify-content: center;
     padding: 0;
     margin: 0;
 }
 
-.post-pagination ul li a,
-.post-pagination ul li span{
+.post-pagination div utton,
+.post-pagination div button{
     display: flex;
     text-decoration: none;
     justify-content: center;
@@ -2582,14 +2582,18 @@ header.main-header .header-sticky.active{
     font-weight: 700;
     transition: all 0.3s ease-out;
 }
+.post-pagination div{
+	display: flex;
+	gap: 10px;
+}
 
-.post-pagination ul li a:hover{
+.post-pagination button:hover{
     background: var(--primary-color);
     color: var(--accent-color);
 }
 
-.post-pagination ul li.active a,
-.post-pagination ul li a:hover{
+.post-pagination div button.active,
+.post-pagination div button:hover{
     background: var(--primary-color);
     color: var(--accent-color);
 }
