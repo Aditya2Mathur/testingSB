@@ -71,7 +71,7 @@ fetch('../data/services.json')
     .catch(error => console.error('Error fetching services data:', error));
 
     // Blogs for blog page
-	fetch('../data/blog.json')
+	fetch('https://github.com/Aditya2Mathur/testingSB/blob/master/data/blog.json')
 			.then(response => response.json())
 			.then(data => {
 				const blogCardsContainer = document.getElementById('blogCards');
