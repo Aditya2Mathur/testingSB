@@ -1775,10 +1775,15 @@ header.main-header .header-sticky.active{
 	margin-right: 50px;
 }
 
+.page-about-body h3{
+	
+	color: var(--transparent-secondry-color);
+	margin-bottom: 10px;
+}
 .page-about-body p{
 	font-size: 16px;
 	color: var(--transparent-secondry-color);
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .page-about-footer{
