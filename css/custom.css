@@ -3196,10 +3196,9 @@ header.main-header .header-sticky.active{
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 0 20px;
-	margin-top: -70px;
 	position: relative;
 	z-index: 1;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .contact-item{
