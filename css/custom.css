@@ -2306,37 +2306,6 @@ header.main-header .header-sticky.active{
 	padding: 0;
 }
 
-.download-apps{
-	padding: 50px 0 100px;
-}
-
-.download-apps .section-title{
-	margin-bottom: 30px;
-}
-
-.download-apps-body{
-	margin-bottom: 50px;
-}
-
-.download-apps-body p{
-	color: var(--transparent-secondry-color);
-}
-
-.download-apps-footer{
-	display: flex;
-}
-
-.download-apps-footer .download-apps-image{
-	margin-right: 50px;
-}
-
-.download-apps-footer .download-apps-image:last-child{
-	margin-right: 0px;
-}
-
-.download-apps-img{
-	text-align: end;
-}
 
 /*************************************/
 /****    17. Service Single css   ****/
