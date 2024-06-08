@@ -286,6 +286,7 @@ body{
 	margin: 40px auto
 }
 
+
 .loading{
 	border: 1px solid transparent;
 	border-color: transparent var(--secondry-color) transparent var(--secondry-color);
@@ -2495,7 +2496,7 @@ header.main-header .header-sticky.active{
 }
 
 .working-process-item .icon-box img{
-	width: 40px;
+	width: 60px;
 }
 
 .working-process-content h3{
