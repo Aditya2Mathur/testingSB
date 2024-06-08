@@ -2414,7 +2414,7 @@ header.main-header .header-sticky.active{
 }
 
 .medical-service{
-	background: var(--primary-color);
+	background: var(--accent-color);
 	padding: 40px 30px;
 }
 
@@ -2442,7 +2442,7 @@ header.main-header .header-sticky.active{
 	display: flex;
 	align-items: center;
 	padding: 15px 20px;
-	background: var(--accent-color);
+	background: var(--primary-color);
 }
 
 .service-item .service-icon{
@@ -2470,10 +2470,11 @@ header.main-header .header-sticky.active{
 
 .medical-service .service-btn a{
 	display: block;
+	background: var(--secondry-color);
 }
 
 .medical-service .service-btn a::after{
-    background: var(--secondry-color);
+    background: var(--primary-color);
 }
 
 .working-step{
