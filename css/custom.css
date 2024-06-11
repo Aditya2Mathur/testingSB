@@ -1556,7 +1556,7 @@ header.main-header .header-sticky.active{
 .footer-contact-details h2,
 .footer-newsletter h2{
 	font-size: 22px;
-	color: var(--accent-color);
+	color: var(--secondry-color);
 	text-transform: capitalize;
 	margin-bottom: 40px;
 }
