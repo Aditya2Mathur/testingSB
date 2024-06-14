@@ -3,20 +3,18 @@
 * File          : CSS File
 * Version       : 1.0
 /*  */
-
 :root{
 	--body-background				: #FFF7F4;
-	--primary-color					: #00ADB5;
+	--primary-color					: linear-gradient(45deg, rgba(249,199,0,1) 0%, rgba(239,126,0,1) 100%);
 	--accent-color					: #393E46;
 	--transparent-color				: #ffffffe3;
 	--transparent-secondry-color	: #00000080;
-	--light-Background				: rgb(99, 204, 178);
-	--light-accent-color			: #EEEEEE;
+	--light-Background				: rgba(239,126,0,1);
+	--light-accent-color			: #F6F1E9;
 	--secondry-color				: #FFFFFF;
 	--text-color					: #000000;
 	--default-font					: "Figtree", sans-serif;;
 }
-
 /************************************/
 /*** 	   02. General css		  ***/
 /************************************/
@@ -169,7 +167,7 @@ body{
     font-family: var(--default-font);
     font-size: 18px;
     font-weight: 600;
-    color: var(--accent-color);
+    color: var(--text-color);
     border-radius: 100px;
 	text-transform: capitalize;
     position: relative;
@@ -180,7 +178,7 @@ body{
     box-shadow: none;
     transition: 0.2s transform;
     background: transparent;
-    border: 2px solid var(--accent-color);
+    border: 2px solid var(--light-Background);
     align-items: center;
     justify-content: center;
     padding: 10px 45px 10px 25px;
@@ -197,7 +195,7 @@ body{
     font-weight: 900;
     transition: 0.3s ease-in-out;
     background: transparent;
-    color: var(--accent-color);
+    color: var(--text-color);
     transform: translate(-20px, -50%);
     display: flex;
     align-items: center;
@@ -339,7 +337,7 @@ body{
     font-weight: 400;
 	text-transform: uppercase;
     letter-spacing: 0.2em;
-    color: var(--accent-color);
+    color: #f0ad4e;
     margin-bottom: 15px;
 }
 
@@ -348,7 +346,7 @@ body{
 	font-size: 48px;
     font-weight: 600;
     line-height: 1.1em;
-    color: var(--primary-color);
+    color: var(--text-color);
     letter-spacing: -0.02em;
     margin: 0;
 }
@@ -358,8 +356,8 @@ body{
 /************************************/
 
 header.main-header{
-	background-color: var(--primary-color);
-	border-bottom: 1px solid var(--light-Background);
+	background: var(--primary-color);
+	border-bottom: px solid var(--light-Background);
 	position: relative;
 	z-index: 100;
 }
@@ -752,7 +750,7 @@ header.main-header .header-sticky.active{
 }
 
 .home-contact-item.highlighted-box .appointment-wrap a:hover{
-	background-color: var(--light-Background);
+	background: var(--primary-color);
 }
 
 .home-contact-item.highlighted-box .appointment-wrap a i{
@@ -811,7 +809,7 @@ header.main-header .header-sticky.active{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-image: url(../images/about-bg.png);
+    backgrond: url(../images/about-bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
@@ -1254,7 +1252,7 @@ header.main-header .header-sticky.active{
 }
 
 .clients-testimonials .section-title h2{
-	color: var(--secondry-color);
+	color: #EF7E00;
 }
 
 .testimonial-item{
@@ -1671,10 +1669,11 @@ header.main-header .header-sticky.active{
 
 .footer-newsletter-form .btn-default{
     border-radius: 6px;
+	background: var(--secondry-color);
 } 
 
 .footer-newsletter-form .btn-default::after{
-    background: var(--secondry-color);
+    background: var(--primary-color);
 }
 
 .footer-copyright{
@@ -1697,9 +1696,10 @@ header.main-header .header-sticky.active{
 /*************************************/
 
 .subpage-header{
+	margin: 1px;
 	padding: 150px 0 100px;
-	background: var(--primary-color) url('../images/half-shape.png') no-repeat 6% 100%;
-	background-size: 19% auto;
+	background: var(--primary-color);
+
 	position: relative;
 }
 
@@ -1714,6 +1714,7 @@ header.main-header .header-sticky.active{
 	background-size: 70% auto;
 	opacity: 1;
 }
+
 
 .subpage-header-box{
 	position: relative;
@@ -1823,7 +1824,7 @@ header.main-header .header-sticky.active{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	background-image: url(../images/about-bg.png);
+	backgrond: url(../images/about-bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
@@ -1846,7 +1847,8 @@ header.main-header .header-sticky.active{
 
 .we-improving{
 	padding: 100px 0;
-	background: var(--primary-color) url('../images/half-circle-2.png') no-repeat center right;
+	background: var(--primary-color);
+
 }
 
 .improving-content{
@@ -3193,7 +3195,7 @@ header.main-header .header-sticky.active{
 }
 
 .contact-information{
-	background-color: var(--primary-color);
+	background: var(--primary-color);
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
@@ -3272,6 +3274,9 @@ header.main-header .header-sticky.active{
 	text-align: center;
 }
 
+.contact-us-form .contact-form-btn .btn-default::before{
+    background: var(--secondry-color);
+}
 .contact-us-form .contact-form-btn .btn-default::after{
     background: var(--secondry-color);
 }

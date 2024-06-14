@@ -28,13 +28,13 @@
 
             var image_url = $el.data('image');
             if( typeof image_url == 'undefined' ){
-                image_url = $el.css('background-image');
+                image_url = $el.css('backgrond');
                 if( !image_url ) return;
 
                 // APPLY DEFAULT CSS
                 var pos_y =  local_options.offset + ($el.offset().top - $(window).scrollTop()) * (1 - local_options.speed );
                 $el.css({
-                    'background-image': image_url,
+                    'backgrond': image_url,
                     'background-size': local_options.size,
                     'background-repeat': local_options.repeat,
                     'background-attachment': 'fixed',
