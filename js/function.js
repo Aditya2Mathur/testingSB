@@ -69,7 +69,7 @@
 
 	/* Init Counter */
 	if ($('.counter').length) {
-		$('.counter').counterUp({ delay: 6, time: 3000 });
+		$('.counter').counterUp({ delay: 6, time: 500 });
 	}
 
 	/* Skill Bar */
@@ -330,3 +330,4 @@
 		});
 	}	
 })(jQuery);
+

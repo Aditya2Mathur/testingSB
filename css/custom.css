@@ -265,7 +265,7 @@ body{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 1000;
+	z-index: -1000;
 	background-color: var(--primary-color);
 	display: flex;
 	align-items: center;
@@ -1018,6 +1018,11 @@ header.main-header .header-sticky.active{
 .medical-service-item:hover .medical-service-btn .btn-services{
 	color: var(--primary-color);
 }
+
+.carousel-indicators button.thumbnail {
+	width: 100px;
+  }
+  
 
 /************************************/
 /****    08. Appointment Css	 ****/
@@ -2331,25 +2336,7 @@ header.main-header .header-sticky.active{
 	width: 100%;
 }
 
-.services-video-icon a{
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	z-index: 2;
-}
 
-.services-video-icon a i{
-    font-size: 20px;
-    background-color: var(--secondry-color);
-    color: var(--accent-color);
-    width: 55px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
 
 .services-single-image img{
 	filter: brightness(60%);
@@ -2491,7 +2478,7 @@ header.main-header .header-sticky.active{
 }
 
 .working-process-item.bg-color{
-	background-color: var(--primary-color);
+	background: var(--primary-color);
 }
 
 .working-process-item .icon-box{
@@ -3866,11 +3853,6 @@ header.main-header .header-sticky.active{
 		margin-right: 0px;
 	}
 
-	.services-video-icon a i{
-		font-size: 16px;
-		width: 44px;
-		height: 44px;
-	}
 
 	.health-care-plan-content ul li{
 		width: 100%;
